@@ -1,5 +1,5 @@
 <?php
-// index.php for CCAI Demo - Phone Store Theme
+// index.php for CCAI Demo - Full Phone Store Theme
 ?>
 
 <!DOCTYPE html>
@@ -7,7 +7,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ConnectTel Phones</title>
+  <title>ConnectTel Mobile Store</title>
 
   <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css" />
   <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
@@ -61,7 +61,14 @@
       color: #555;
     }
 
-    .products {
+    .section-title {
+      text-align: center;
+      padding: 30px 10px 10px;
+      font-size: 1.8em;
+      color: #222;
+    }
+
+    .products, .plans {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -70,7 +77,7 @@
       background-color: #f1f1f1;
     }
 
-    .product {
+    .product, .plan {
       background-color: #fff;
       width: 280px;
       padding: 20px;
@@ -79,16 +86,16 @@
       text-align: center;
     }
 
-    .product img {
+    .product img, .plan img {
       max-width: 100%;
       border-radius: 10px;
     }
 
-    .product h3 {
+    .product h3, .plan h3 {
       margin: 15px 0 10px;
     }
 
-    .product p {
+    .product p, .plan p {
       color: #777;
     }
 
@@ -115,37 +122,63 @@
 <body>
 
   <header>
-    <h1>ConnectTel Phones</h1>
-    <p>Experience the future of mobile technology</p>
+    <h1>ConnectTel</h1>
+    <p>Your One-Stop Shop for Phones and Plans</p>
   </header>
 
   <nav>
     <a href="#">Home</a>
     <a href="#">Smartphones</a>
+    <a href="#">Plans</a>
     <a href="#">Accessories</a>
     <a href="#">Support</a>
   </nav>
 
   <section class="hero">
-    <h1>New Launch: Galaxy X Pro</h1>
-    <p>High performance. Stunning display. Order now.</p>
+    <h1>Summer Sale is Live!</h1>
+    <p>Get up to 30% off on top smartphones + Free SIM activation</p>
   </section>
 
+  <div class="section-title">Top Smartphones</div>
   <section class="products">
     <div class="product">
-      <img src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-15-Pro_Lineup_230912.jpg.og.jpg" alt="iPhone 15 Pro">
-      <h3>iPhone 15 Pro</h3>
-      <p>From $999</p>
+      <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-15-pro-max-finish-select-202309-6-1inch-navy?wid=940&hei=1112&fmt=png-alpha&.v=1692838191481" alt="iPhone 15 Pro Max">
+      <h3>iPhone 15 Pro Max</h3>
+      <p>From $1,199</p>
     </div>
     <div class="product">
-      <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-s911bzahins/gallery/in-galaxy-s23-s911-447587-sm-s911bzahins-thumb-535870304?$650_519_PNG$" alt="Galaxy S23">
-      <h3>Samsung Galaxy S23</h3>
-      <p>From $799</p>
+      <img src="https://images.samsung.com/is/image/samsung/assets/global/galaxy-s23/gallery/galaxy-s23-ultra-gallery-green-1.jpg" alt="Galaxy S23 Ultra">
+      <h3>Samsung Galaxy S23 Ultra</h3>
+      <p>From $1,099</p>
+    </div>
+    <div class="product">
+      <img src="https://fdn2.gsmarena.com/vv/pics/google/google-pixel-8-pro-1.jpg" alt="Pixel 8 Pro">
+      <h3>Google Pixel 8 Pro</h3>
+      <p>From $899</p>
     </div>
     <div class="product">
       <img src="https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12r-1.jpg" alt="OnePlus 12R">
       <h3>OnePlus 12R</h3>
       <p>From $649</p>
+    </div>
+  </section>
+
+  <div class="section-title">Popular Mobile Plans</div>
+  <section class="plans">
+    <div class="plan">
+      <img src="https://cdn-icons-png.flaticon.com/512/201/201623.png" alt="Basic Plan" width="100">
+      <h3>Basic Plan</h3>
+      <p>$20/month - 5GB data, 100 mins, 100 texts</p>
+    </div>
+    <div class="plan">
+      <img src="https://cdn-icons-png.flaticon.com/512/201/201623.png" alt="Unlimited Plan" width="100">
+      <h3>Unlimited Plan</h3>
+      <p>$49/month - Unlimited data, calls, and texts</p>
+    </div>
+    <div class="plan">
+      <img src="https://cdn-icons-png.flaticon.com/512/201/201623.png" alt="Family Plan" width="100">
+      <h3>Family Plan</h3>
+      <p>$99/month - 4 lines, Unlimited everything</p>
     </div>
   </section>
 
