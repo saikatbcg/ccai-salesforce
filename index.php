@@ -198,8 +198,8 @@
 
   <df-messenger
     location="us-central1"
-    project-id="ccai-demo-463118"
-    agent-id="40bee3c0-922f-4438-925f-7bf195b47a81"
+    project-id="gcp-gp-ccai-sandbox-e296"
+    agent-id="3cea797d-bb2d-40f6-a345-fb113255b670"
     language-code="en"
     max-query-length="-1">
     <df-messenger-chat-bubble chat-title="Support Assistant"></df-messenger-chat-bubble>
