@@ -147,7 +147,7 @@
       <p>From $1,199</p>
     </div>
     <div class="product">
-      <img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-ultra-1.jpg" alt="Galaxy S23 Ultra">
+      <img src="https://fdn2.gsmarena.com/vv/pics/google/google-pixel-8-pro-1.jpg" alt="Galaxy S23 Ultra">
       <h3>Samsung Galaxy S23 Ultra</h3>
       <p>From $1,099</p>
     </div>
