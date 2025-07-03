@@ -1,45 +1,44 @@
 <?php
-// index.php for CCAI Demo - Phone Company Style
+// index.php for CCAI Demo - Phone Store Theme
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ConnectTel - Customer Support</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ConnectTel Phones</title>
 
-  <!-- Dialogflow Messenger Style and Script -->
-  <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+  <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css" />
   <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
 
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f4f6f8;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f9f9f9;
       color: #333;
     }
 
     header {
-      background-color: #0057b8;
+      background-color: #000;
       color: white;
       padding: 20px;
       text-align: center;
     }
 
     nav {
-      background: #003b80;
-      padding: 10px;
+      background-color: #1a1a1a;
       display: flex;
       justify-content: center;
+      padding: 10px 0;
     }
 
     nav a {
-      color: white;
+      color: #fff;
       text-decoration: none;
       margin: 0 15px;
-      font-weight: bold;
+      font-weight: 500;
     }
 
     nav a:hover {
@@ -47,39 +46,54 @@
     }
 
     .hero {
-      background: #e0e7ff;
-      padding: 60px 20px;
+      background-color: #fff;
       text-align: center;
+      padding: 60px 20px;
     }
 
     .hero h1 {
-      font-size: 2.5em;
+      font-size: 3em;
       margin-bottom: 10px;
     }
 
     .hero p {
       font-size: 1.2em;
+      color: #555;
     }
 
-    .features {
+    .products {
       display: flex;
-      justify-content: space-around;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
       padding: 40px 20px;
-      background: #ffffff;
+      background-color: #f1f1f1;
     }
 
-    .feature {
-      width: 30%;
+    .product {
+      background-color: #fff;
+      width: 280px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       text-align: center;
     }
 
-    .feature h3 {
-      margin-bottom: 10px;
-      color: #0057b8;
+    .product img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .product h3 {
+      margin: 15px 0 10px;
+    }
+
+    .product p {
+      color: #777;
     }
 
     footer {
-      background: #003b80;
+      background: #000;
       color: white;
       text-align: center;
       padding: 20px;
@@ -101,34 +115,37 @@
 <body>
 
   <header>
-    <h1>ConnectTel</h1>
-    <p>Your trusted partner in mobile connectivity</p>
+    <h1>ConnectTel Phones</h1>
+    <p>Experience the future of mobile technology</p>
   </header>
 
   <nav>
     <a href="#">Home</a>
-    <a href="#">Plans</a>
+    <a href="#">Smartphones</a>
+    <a href="#">Accessories</a>
     <a href="#">Support</a>
-    <a href="#">My Account</a>
   </nav>
 
   <section class="hero">
-    <h1>24/7 Customer Support</h1>
-    <p>Get assistance with your mobile plan, account, or billing through our AI-powered support assistant.</p>
+    <h1>New Launch: Galaxy X Pro</h1>
+    <p>High performance. Stunning display. Order now.</p>
   </section>
 
-  <section class="features">
-    <div class="feature">
-      <h3>Mobile Plans</h3>
-      <p>Flexible options tailored to your needs.</p>
+  <section class="products">
+    <div class="product">
+      <img src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-15-Pro_Lineup_230912.jpg.og.jpg" alt="iPhone 15 Pro">
+      <h3>iPhone 15 Pro</h3>
+      <p>From $999</p>
     </div>
-    <div class="feature">
-      <h3>Device Upgrades</h3>
-      <p>Latest smartphones with affordable EMI options.</p>
+    <div class="product">
+      <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-s911bzahins/gallery/in-galaxy-s23-s911-447587-sm-s911bzahins-thumb-535870304?$650_519_PNG$" alt="Galaxy S23">
+      <h3>Samsung Galaxy S23</h3>
+      <p>From $799</p>
     </div>
-    <div class="feature">
-      <h3>Smart Support</h3>
-      <p>Talk to our virtual assistant anytime, anywhere.</p>
+    <div class="product">
+      <img src="https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12r-1.jpg" alt="OnePlus 12R">
+      <h3>OnePlus 12R</h3>
+      <p>From $649</p>
     </div>
   </section>
 
@@ -136,16 +153,13 @@
     &copy; 2025 ConnectTel Inc. All rights reserved.
   </footer>
 
-  <!-- Dialogflow Messenger Bot -->
   <df-messenger
     location="us-central1"
     project-id="ccai-demo-463118"
     agent-id="40bee3c0-922f-4438-925f-7bf195b47a81"
     language-code="en"
     max-query-length="-1">
-    <df-messenger-chat-bubble
-      chat-title="Support Assistant">
-    </df-messenger-chat-bubble>
+    <df-messenger-chat-bubble chat-title="Support Assistant"></df-messenger-chat-bubble>
   </df-messenger>
 
 </body>
