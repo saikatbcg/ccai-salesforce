@@ -122,7 +122,7 @@
 <body>
 
   <header>
-    <h1>ConnectTel</h1>
+    <img src="logo.png" alt="ConnectTel Logo" style="height: 50px; vertical-align: middle; margin-right: 10px;"><h1 style='display:inline;'>ConnectTel</h1>
     <p>Your One-Stop Shop for Phones and Plans</p>
   </header>
 
@@ -142,12 +142,12 @@
   <div class="section-title">Top Smartphones</div>
   <section class="products">
     <div class="product">
-      <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-15-pro-max-finish-select-202309-6-1inch-navy?wid=940&hei=1112&fmt=png-alpha&.v=1692838191481" alt="iPhone 15 Pro Max">
+      <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg" alt="iPhone 15 Pro Max">
       <h3>iPhone 15 Pro Max</h3>
       <p>From $1,199</p>
     </div>
     <div class="product">
-      <img src="https://images.samsung.com/is/image/samsung/assets/global/galaxy-s23/gallery/galaxy-s23-ultra-gallery-green-1.jpg" alt="Galaxy S23 Ultra">
+      <img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-ultra-1.jpg" alt="Galaxy S23 Ultra">
       <h3>Samsung Galaxy S23 Ultra</h3>
       <p>From $1,099</p>
     </div>
