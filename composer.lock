@@ -1,0 +1,14 @@
+{
+    "content-hash": "5a332ff83aafecf2791429b5a3e44f08",
+    "packages": [],
+    "packages-dev": [],
+    "platform-overrides": {
+        "php": "8.0.0"
+    },
+    "plugin-api-version": "2.3.0",
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false
+}
