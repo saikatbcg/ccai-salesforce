@@ -161,6 +161,16 @@
       <h3>OnePlus 12R</h3>
       <p>From $649</p>
     </div>
+    <div class="product">
+      <img src="https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12r-1.jpg" alt="OnePlus 12R">
+      <h3>OnePlus 14R</h3>
+      <p>From $649</p>
+    </div>
+    <div class="product">
+      <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg" alt="iPhone 15 Pro Max">
+      <h3>iPhone 17 Pro Max</h3>
+      <p>From $2,199</p>
+    </div>
   </section>
 
   <div class="section-title">Popular Mobile Plans</div>
