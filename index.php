@@ -197,7 +197,6 @@
   </footer>
 
   <df-messenger
-    location="us-central1"
     project-id="gcp-gp-ccai-sandbox-e296"
     agent-id="73e2d44d-34d7-4001-888a-d168370895f2"
     language-code="en"
